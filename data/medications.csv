@@ -1,0 +1,7 @@
+medication_id,name,active_ingredient,form,strength
+1,Metformin,metformin,tablet,500 mg
+2,Lisinopril,lisinopril,tablet,10 mg
+3,Salbutamol,salbutamol,inhaler,100 mcg
+4,Insulin Glargine,insulin glargine,injection,100 U/mL
+5,Methotrexate,methotrexate,tablet,2.5 mg
+6,Amlodipine,amlodipine,tablet,5 mg

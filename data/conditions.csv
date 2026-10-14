@@ -1,0 +1,6 @@
+condition_id,name,icd10_code
+1,Type 2 Diabetes,E11
+2,Hypertension,I10
+3,Asthma,J45
+4,Chronic Kidney Disease,N18
+5,Rheumatoid Arthritis,M06

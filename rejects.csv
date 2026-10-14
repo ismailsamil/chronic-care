@@ -1,0 +1,6 @@
+table,csv_line,reason,row
+patients,7,birth_date must be YYYY-MM-DD,"{'patient_id': '6', 'first_name': 'Bad', 'last_name': 'Date', 'birth_date': '14/03/1970', 'sex': 'M', 'email': 'bad.date@example.com'}"
+patients,8,db constraint: UNIQUE constraint failed: patients.email,"{'patient_id': '7', 'first_name': 'Dup', 'last_name': 'Email', 'birth_date': '1980-05-05', 'sex': 'M', 'email': 'john.carter@example.com'}"
+patients,9,missing name,"{'patient_id': '8', 'first_name': None, 'last_name': 'NoFirstName', 'birth_date': '1975-02-02', 'sex': 'F', 'email': 'nofirst@example.com'}"
+treatments,8,end_date before start_date,"{'treatment_id': '7', 'patient_id': '2', 'medication_id': '2', 'condition_id': '2', 'dose': '10 mg', 'frequency_per_day': '1', 'start_date': '2024-05-10', 'end_date': '2024-01-01', 'status': 'stopped'}"
+treatments,9,db constraint: FOREIGN KEY constraint failed,"{'treatment_id': '8', 'patient_id': '99', 'medication_id': '1', 'condition_id': '1', 'dose': '500 mg', 'frequency_per_day': '2', 'start_date': '2024-01-01', 'end_date': None, 'status': 'active'}"

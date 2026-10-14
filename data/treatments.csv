@@ -1,0 +1,9 @@
+treatment_id,patient_id,medication_id,condition_id,dose,frequency_per_day,start_date,end_date,status
+1,1,1,1,500 mg,2,2024-01-01,,active
+2,1,2,2,10 mg,1,2024-01-01,,active
+3,2,6,2,5 mg,1,2023-06-01,,active
+4,3,3,3,2 puffs,3,2024-02-01,,active
+5,4,4,1,20 U,1,2024-03-01,,active
+6,5,5,5,7.5 mg,1,2024-04-01,,active
+7,2,2,2,10 mg,1,2024-05-10,2024-01-01,stopped
+8,99,1,1,500 mg,2,2024-01-01,,active

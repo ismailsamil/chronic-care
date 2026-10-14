@@ -1,0 +1,9 @@
+patient_id,first_name,last_name,birth_date,sex,email
+1,Amina,Benali,1968-03-14,F,amina.benali@example.com
+2,John,Carter,1955-11-02,M,john.carter@example.com
+3,Sofia,Rossi,1990-07-21,F,sofia.rossi@example.com
+4,Karim,Haddad,1972-01-30,M,karim.haddad@example.com
+5,Lena,Müller,1983-09-09,F,lena.mueller@example.com
+6,Bad,Date,14/03/1970,M,bad.date@example.com
+7,Dup,Email,1980-05-05,M,john.carter@example.com
+8,,NoFirstName,1975-02-02,F,nofirst@example.com
